@@ -1,4 +1,36 @@
 body{
-    width:100vw;
-    margin:0 5vw;
+    width:96vw;
+    margin:0 2vw;
+    background-color:#F5F5F5;
+    text-align:center;
+}
+#logo{
+    width:20vh;
+    height:20vh;
+    border-radius:50%;
+    margin:0 auto;
+    background-color:#000000;
+}
+#status{
+    height:5vh;
+}
+#person{
+    height:8vh;
+    font-size:32px;
+    background-color: aqua;
+}
+#overview{
+    height:20vh;
+    margin:2vh 0;
+    display:block;
+}
+#overview>p{
+    margin:0;
+    height:20%;
+}
+#content{
+    display:flex;
+}
+#content>div{
+    width:24vw;
 }
