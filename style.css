@@ -12,19 +12,24 @@ body{
     background-color:#000000;
 }
 #status{
-    height:5vh;
-    background-color: #00FFFF;
+    height:4vh;
+    font-size:16px;
+    margin-top:1vh;
 }
 #person{
-    height:8vh;
-    font-size:32px;
-    background-color:#800080;
+    height:11vh;
+    font-size:36px;
+    font-family: 'Pacifico', cursive;
 }
 #overview{
-    height:20vh;
+    height:30vh;
+    font-size:18px;
     margin:2vh 0;
     display:block;
     background-color:#FF0000;
+}
+.title{
+    font-size:32px;
 }
 #overview>p{
     margin:0;
