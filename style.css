@@ -26,7 +26,6 @@ body{
     font-size:18px;
     margin:2vh 0;
     display:block;
-    background-color:#FF0000;
 }
 .title{
     font-size:32px;
@@ -37,8 +36,13 @@ body{
 }
 #content{
     display:flex;
-    background-color: #A52A2A;
 }
 #content>div{
     width:24vw;
+}
+@media screen and (max-width:959px){
+    
+}
+@media screen and (max-width:480px){
+
 }
