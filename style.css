@@ -1,48 +1,108 @@
-body{
-    width:96vw;
-    margin:0 2vw;
-    background-color:#F5F5F5;
-    text-align:center;
-}
-#logo{
-    width:20vh;
-    height:20vh;
-    border-radius:50%;
-    margin:0 auto;
-    background-color:#000000;
-}
-#status{
-    height:4vh;
-    font-size:16px;
-    margin-top:1vh;
-}
-#person{
-    height:11vh;
-    font-size:36px;
-    font-family: 'Pacifico', cursive;
-}
-#overview{
-    height:30vh;
-    font-size:18px;
-    margin:2vh 0;
-    display:block;
-}
-.title{
-    font-size:32px;
-}
-#overview>p{
-    margin:0;
-    height:20%;
-}
-#content{
-    display:flex;
-}
-#content>div{
-    width:24vw;
-}
-@media screen and (max-width:959px){
-    
+@media screen and (min-width:481px){
+    body{
+        width:96vw;
+        margin:0 2vw;
+        background-color:#F5F5F5;
+        text-align:center;
+    }
+    .logo{
+        height:20vh;
+        margin:2vh auto 0 auto;
+    }
+    #logo{
+        width:20vh;
+        border-radius:50%;
+    }
+    #status{
+        height:3vh;
+        font-size:20px;
+        margin-top:1vh;
+        font-family:'Edu TAS Beginner', cursive;
+    }
+    #person{
+        height:6vh;
+        font-size:36px;
+        margin-top:0.5vh;
+        font-family: 'Pacifico', cursive;
+    }
+    #overview{
+        height:30vh;
+        margin:1vh 0;
+        font-family:'Edu TAS Beginner', cursive;
+    }
+    #overview>.title{
+        height:6vh;
+        font-size:48px;
+        font-weight:600;
+    }
+    #overview>p{
+        height:4vh;
+        margin:0;
+        font-size:30px;
+    }
+    #content{
+        display:flex;
+        font-family:'Edu TAS Beginner', cursive;
+    }
+    #content>div{
+        width:24vw;
+        font-size:24px;
+    }
+    #content>div>.title{
+        font-size:30px;
+        font-weight:600;
+    }
 }
 @media screen and (max-width:480px){
-
+    body{
+        width:96vw;
+        margin:0 2vw;
+        background-color:#F5F5F5;
+        text-align:center;
+    }
+    .logo{
+        height:20vh;
+        margin:1vh auto 0 auto;
+    }
+    #logo{
+        width:20vh;
+        border-radius:50%;
+    }
+    #status{
+        height:3vh;
+        font-size:14px;
+        margin-top:2vh;
+        font-family:'Edu TAS Beginner', cursive;
+    }
+    #person{
+        height:8vh;
+        font-size:32px;
+        font-family: 'Pacifico', cursive;
+    }
+    #overview{
+        height:38vh;
+        margin-top:2vh;
+        display:block;
+    }
+    #overview>.title{
+        height:8vh;
+        font-size:40px;
+        font-weight:600;
+        font-family:'Edu TAS Beginner', cursive;
+    }
+    #overview>p{
+        margin:0;
+        height:5vh;
+        font-size:22px;
+        font-family:'Edu TAS Beginner', cursive;
+    }
+    #content{
+        display:block;
+        font-family:'Edu TAS Beginner', cursive;
+    }
+    #content>div>.title{
+        font-size:24px;
+        font-weight:600;
+        font-family:'Edu TAS Beginner', cursive;
+    }
 }
